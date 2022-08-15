@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="textos.css" />
+    <link rel="stylesheet" href="imagens.css" />
+
+    <title>Driven Eats</title>
+  </head>
+  <body> 
+    <div class="topo">
+        <h1>DrivenEats</h1>
+        <h1 class="subtitulo">Sua comida em 6 minutos</h1>
+    </div>
+    <div class="corpo">
+<!-- lanche. -->
+        <div class="lanche" >
+          <div class="texto"><h2>Primeiro, seu prato</h2></div>
+          <div class="caixa">
+            <div class="prato1" onclick="selecionarLanche('prato1')" >
+              <img src="images/xtudo.jpeg" >
+              <h1 class="nome-prato">X-Tudo</h1>
+              <h1 class="receita">Pão, Carne, Queijo, Bacon, Salsicha e salada</h1>
+              <div class="preco">
+                <h1 class="valor-prato">R$ 14,90</h1>
+                <img src="images/Vector.png" class="vetor escondido">
+              </div>
+            </div>
+            <div class="prato2" onclick="selecionarLanche('prato2')">
+              <img src="images/xt.jpeg" >
+              <h1 class="nome-prato">X-Tudão</h1>
+              <h1 class="receita">Tudo que tinha no anterior e mais um pouco</h1>
+                <div class="preco">
+                <h1 class="valor-prato">R$ 19,90</h1>
+                <img src="images/Vector.png" class="vetor escondido">
+              </div>
+            </div>
+            <div class="prato3"onclick="selecionarLanche('prato3')">
+              <img src="images/monstro.jpeg" >
+              <h1 class="nome-prato">xXx - A Vingança</h1>
+              <h1 class="receita">Come isso não, se morrer a culpa não é nossa.</h1>
+              <div class="preco">
+                <h1 class="valor-prato">R$ 29,90</h1>
+                <img src="images/Vector.png" class="vetor escondido">
+              </div>
+            </div>
+            <div class="prato4" onclick="selecionarLanche('prato4')">
+              <img src="images/baixados (1).jpeg" >
+              <h1 class="nome-prato">Vegetariano</h1>
+              <h1 class="receita">Mato, grama, floresta, bosque, selva, matagal, sal e azeite </h1>
+              <div class="preco">
+                <h1 class="valor-prato">R$ 9,90</h1>
+                <img src="images/Vector.png" class="vetor escondido">
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- Bebidas. -->
+        <div class="bebida">
+          <div class="texto"><h2>Agora, sua bebida</h2></div>
+          <div class="caixa">
+            <div class="bebida1"onclick="selecionarBebida('bebida1')">
+              <img src="images/coquinha_gelada 1.png" >
+              <h1 class="nome-prato">Coca-Cola</h1>
+              <h1 class="receita">Gelada? Talvez</h1>
+              <div class="preco">
+                <h1 class="valor-prato">R$ 5,90</h1>
+                <img src="images/Vector.png" class="vetor1 escondido">
+              </div>
+            </div>
+            <div class="bebida2"onclick="selecionarBebida('bebida2')">
+              <img src="images/Guarana-Antarctica.jpg" >
+              <h1 class="nome-prato">Guarana Antartica</h1>
+              <h1 class="receita">Ná ná é sempre bom</h1>
+              <div class="preco">
+                <h1 class="valor-prato">R$ 4,90</h1>
+                <img src="images/Vector.png" class="vetor1 escondido">
+              </div>
+            </div>
+            <div class="bebida3"onclick="selecionarBebida('bebida3')">
+              <img src="images/suco.jpeg" >
+              <h1 class="nome-prato">Suco de Laranja</h1>
+              <h1 class="receita">Suco? Sério?</h1>
+              <div class="preco">
+                <h1 class="valor-prato">R$ 6.90</h1>
+                <img src="images/Vector.png" class="vetor1 escondido">
+              </div>
+            </div>
+            <div class="bebida4"onclick="selecionarBebida('bebida4')">
+              <img src="images/agua.jpeg" >
+              <h1 class="nome-prato">Agua Mineral</h1>
+              <h1 class="receita">Os Rins agradecem.</h1>
+              <div class="preco">
+                <h1 class="valor-prato">R$ 2,90</h1>
+                <img src="images/Vector.png" class="vetor1 escondido">
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- Sobremesa. -->
+        <div class="sobremesa">
+            <div class="texto"><h2>Por fim, sua sobremesa</h2></div>
+            <div class="caixa">
+              <div class="sobremesa1"onclick="selecionarSobremesa('sobremesa1')" >
+
+                <img src="images/pudim.jpeg" >
+                <h1 class="nome-prato">Pudim</h1>
+                <h1 class="receita">Mas pode ser pra você tambem</h1>
+                <div class="preco">
+                  <h1 class="valor-prato">R$ 5,90</h1>
+                  <img src="images/Vector.png" class="vetor2 escondido">
+                </div>
+              </div>
+              <div class="sobremesa2"onclick="selecionarSobremesa('sobremesa2')">
+
+                <img src="images/baixados.jpeg" >
+                <h1 class="nome-prato">Pavê</h1>
+                <h1 class="receita">Por favor, sem piadas. Mas...</h1>
+                <div class="preco">
+                  <h1 class="valor-prato">R$ 3,90</h1>
+                  <img src="images/Vector.png" class="vetor2 escondido">
+                </div>
+              </div>
+              <div class="sobremesa3"onclick="selecionarSobremesa('sobremesa3')">
+
+                <img src="images/mousse.jpeg" >
+                <h1 class="nome-prato">Mousse de Maracujá</h1>
+                <h1 class="receita">Mousse de maracujá, é minha fruta favorita</h1>
+                <div class="preco">
+                  <h1 class="valor-prato">R$ 4,90</h1>
+                  <img src="images/Vector.png" class="vetor2 escondido">
+                </div>
+              </div>
+              <div class="sobremesa4"onclick="selecionarSobremesa('sobremesa4')">
+
+                <img src="images/salada.jpeg" >
+                <h1 class="nome-prato">Salada de Frutas</h1>
+                <h1 class="receita">É serio que vai pedir isso?</h1>
+                <div class="preco">
+                  <h1 class="valor-prato">R$ 8,90</h1>
+                  <img src="images/Vector.png" class="vetor2 escondido">
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+<!-- caixa de confirmação. -->
+    <div class="caixa-pedido">
+      <button onclick="abrirZap()" class="selecionar-pedidos"><h3>Selecione os 3 itens
+        para fechar o pedido</h3></button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  </html>
+  

@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .icone{
+      display: none;
+  }
+  @media (max-width: 615px) {
+    .topo {
+      background-color: red;
+      height: 92px;
+      width: 100%;
+
+      position: fixed;
+      z-index: 2;
+  
+      top: 0;
+      left: 0;
+    }
+  
+    .corpo {
+      background-color: #e5e5e5;
+      width: 100%;
+      height: 1000px;
+      margin-top: 80px;
+      margin-bottom: 80px;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+  
+    .lanche,
+    .bebida,
+    .sobremesa {
+      background: #e5e5e5;
+      width: 100%;
+      height: 258px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .texto {
+      padding-left: 15px;
+      background: #e5e5e5;
+      width: 100%;
+      height: 25px;
+    }
+    .caixa {
+      display: flex;
+      overflow-x: scroll;
+    }
+    .prato1, .prato2, .prato3,.prato4, .bebida1, .bebida2, .bebida3, .bebida4, .sobremesa1, .sobremesa2, .sobremesa3, .sobremesa4 {
+      margin-left: 15px;
+      margin-right: 10px;
+      margin-top: 8px;
+  
+      background: #FFFFFF;
+      width: 172px;
+      height: 216px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      cursor: pointer;
+
+      position: relative;
+  
+      box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+      border-radius: 9px;
+  
+      flex-shrink: 0;
+    }
+    .preco{
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+    }
+    .vetor, .vetor1, .vetor2{
+      Width: 15.44px;
+      Height:15.44px;
+    }
+    img {
+      width: 144px;
+      height: 87px;
+      border-radius: 4px;
+      margin-left: 14px;
+    }
+  
+    .caixa-pedido, .caixa-confirmacao {
+      background: #FFFFFF;
+      width: 100%;
+      height: 92px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      position: fixed;
+      z-index: 1;
+  
+      bottom: 0;
+      left: 0;
+    }
+    .selecionar-pedidos {
+      width: 364px;
+      height: 61px;
+  
+      background: #cbcbcb;
+      border-radius: 50px;
+    }
+    img{
+      width: 144px;
+      height: 87px;
+      border-radius: 4px;
+    }
+
+    .selecionado{
+      box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+      border-radius: 9px;
+    }
+
+    .icone{
+      color:  #FFFFFF;
+      display: inline-flex;
+      position: absolute;
+      right: 5px;
+      bottom: 5px;
+    }
+    .icone-selecionado{
+      color: #32B72F;
+      display: inline-flex;
+      position: absolute;
+      right: 5px;
+      bottom: 5px;
+    }
+    .escondido{
+      display: none;
+    }
+
+    .selecionar{
+      background-color: green;
+    }
+  }
